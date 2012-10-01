@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up for updates</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div style="margin-top: 100px;" class="span12 pagination-centered">
+    
+    <p>To receive updates and early access please sign up below.
+
+    <form class="form-inline" style="padding: 25px;" action="<%=url('/submit')%>" method="post">
+      <label class="control-label" for="inputEmail">Email</label>
+  <input type="text" name="email" id="inputEmail" class="input" placeholder="user@example.org">
+  
+  
+  <button type="submit" class="btn btn-primary">Notify me</button>
+
+</form>
+
+<p><small>Your email address will only be used for sending relevant updates.<br/>You can unsubscribe at any time.</small></p>
+  
+
+</div>
+</div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
